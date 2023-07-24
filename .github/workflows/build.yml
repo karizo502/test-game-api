@@ -6,6 +6,6 @@ jobs:
     steps:
       - run: node --version
       - run: npm --version
-      - run: actions/cheeckout@v3
+      - run: actions/checkout@v3
       - run: npm install
       - run: node app.js
